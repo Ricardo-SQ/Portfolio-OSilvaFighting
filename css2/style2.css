@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+html{
+    font-size: 75%;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+    position: fixed;
+    width: 100%;
+    padding: 10px 20px;
+    min-height: 60px;
+}
+
+.logo{
+    color:rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-shadow: 1px 1px 5px rgba(9, 84, 107, 0.5);
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 5px;
+}
+
+.navbar a:link, .navbar a:visited{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.6rem;
+    padding: 10px 15px;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#photos h1{
+    display: block;
+    text-align: center;
+}
+
+#inicioPort h1{
+    display: block;
+    text-align: center;
+}
+
+#inicioPort h2{
+    display: block;
+    text-align: center;
+}
+
+#inicioPort p{
+    font-size: 1.62rem;
+    text-align: center;
+    line-height: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#focos h2{
+    display: block;
+    text-align: center;
+}
+
+#focos p{
+    font-size: 1.62rem;
+    text-align: center;
+    line-height: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#photos p{
+    font-size: 2rem;
+    text-align: center;
+    line-height: 3rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#photos img{
+    width: 500px;
+    height: 350px;
+    object-fit: cover;
+    display: inline-block;
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(14,14,14,0.5);
+    transition: transform 0.3s ease;
+}
+
+#photos img:hover{
+    transform: scale(1.05);
+}
+
+#logosACAD h1{
+    display: block;
+    text-align: center;
+}
+
+#logosACAD h2{
+    display: block;
+    text-align: center;
+}
+
+#logosACAD p{
+    font-size: 1.62rem;
+    text-align: center;
+    line-height: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#logosACAD img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
